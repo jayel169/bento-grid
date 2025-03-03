@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    border: 5px solid #1d1c1b;
+}
+
+.grid-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.one { background-color: #fff3e0; }
+.two { background-color: #fff8e1; }
+.three { background-color: #e1bee7; }
+.four { background-color: #fff3e0; }
+.five { background-color: #fff8e1; }
+.six { background-color: #fff; }
+.seven { background-color: #ede7f6; }
+.eight { background-color: #e1bee7; }
+
+.text {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #ab47bc;
+}
+
+.create-post {
+    background-color: #ffb300;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.stars {
+    font-size: 2em;
+    color: #ffca28;
+}
+
+.reviews {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.schedule {
+    font-size: 0.9em;
+}
+
+.percent {
+    color: #66bb6a;
+}
+
+.growth-stats {
+    font-size: 0.9em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.block {
+    display: block;
+}
